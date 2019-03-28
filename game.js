@@ -1,26 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-<head>
-    <meta charset="UTF-8">
-    <title>Psychic Game</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-</head>
-
-<body>
-        <script type="text/javascript" src="assets/javascript/game.js"></script>
-
-    <h1>The Psychic Game</h1>
-    <p>Guess What I'm Thinking of?</p>
-
-    <div id="game"></div>
-
-    <p id="wins-text">Wins:0</p>
-    <p id="losses-text">Losses:0</p>
-    <p id="guesses-text">Guesses Left:8</p>
-    <p id="userGuess-text">Your Guesses So Far</p>
-    </div>
-    <script type="text/javascript">
+<script type="text/javascript">
 
         // Array of the list of letters
         var result = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z",];
@@ -32,8 +12,7 @@
 
         for (var i = 0; i < result.length; i++)
 
-
-            // Variables to keep track of wins, losses, and guesses
+// Variables to keep track of wins, losses, and guesses
             var wins = 0;
         var losses = 0;
         var guesses = 0;
@@ -81,8 +60,3 @@
 
         };
     </script>
-
-
-
-
-</body>
